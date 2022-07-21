@@ -1,4 +1,3 @@
-
 .content {
     display: grid;
     max-width: 900px;
@@ -7,16 +6,7 @@
     grid-template-rows: 5fr 1fr 1fr 1fr 1fr ;
 }
 
-.cell__1,
-.cell__2,
-.cell__3,
-.cell__4,
-.cell__5,
-.cell__6,
-.cell__7,
-.cell__8,
-.cell__9,
-.cell__10 {
+.cell {
     background-color: rgb(166, 235, 37);
     font-size: 3rem;
     color: white;

@@ -10,18 +10,12 @@
                         "two six seven five"
                         "two six eight nine";
 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     gap: 20px;
 }
 
-.cell__1,
-.cell__2,
-.cell__3,
-.cell__4,
-.cell__5,
-.cell__6,
-.cell__7,
-.cell__8,
-.cell__9 {
+.cell {
     font-size: 3rem;
     border: 2px solid red;
     text-align: center;
